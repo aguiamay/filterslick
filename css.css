@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  padding: 30px;
+  font-family: 'Lucida Sans', sans-serif;
+}
+
+.content {
+  position: relative;
+  width: 700px;
+  margin: 0 auto;
+}
+
+#filter {
+  height: 140px;
+}
+
+.item {
+  position: relative;
+  background-color: #777777;
+  color: #eeeeee;
+  font-size: 35px;
+  text-align: center;
+  line-height: 140px;
+  margin: 10px;
+}
