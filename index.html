@@ -16,22 +16,36 @@
   <div class="content">
 
     <div id="navegacao">
-      <input type="radio" name="dia" id="rd-btn-dia-1">
-      <label for="rd-btn-dia-1">Dia 1</label>
-      <input type="radio" name="dia" id="rd-btn-dia-2">
-      <label for="rd-btn-dia-2">Dia 2</label>
+      <div id="wrapper-dia">
+        <input type="radio" name="dia" id="rd-btn-dia-all" value="all" checked>
+        <label for="rd-btn-dia-all">Todos</label>
+        <input type="radio" name="dia" id="rd-btn-dia-1" value="1">
+        <label for="rd-btn-dia-1">Dia 1</label>
+        <input type="radio" name="dia" id="rd-btn-dia-2" value="2">
+        <label for="rd-btn-dia-2">Dia 2</label>
+      </div>
+      <div id="wrapper-list">
+        <label for="op-categoria">Categoria: </label>
+        <select name="categoria" id="op-categoria">
+          <option value="all">Todos</option>
+          <option value="cat1">Categoria 1</option>
+          <option value="cat2">Categoria 2</option>
+          <option value="cat3">Categoria 3</option>
+        </select>
+      </div>
     </div>
 
     <div id="filter">
-      <div data-dia="1" class="item">1</div>
-      <div data-dia="2" class="item">2</div>
-      <div data-dia="1" class="item">3</div>
-      <div data-dia="2" class="item">4</div>
-      <div data-dia="1" class="item">5</div>
-      <div data-dia="2" class="item">6</div>
-      <div data-dia="1" class="item">7</div>
-      <div data-dia="2" class="item">8</div>
-      <div data-dia="1" class="item">9</div>
+      <div data-dia="1" class="item cat1"><span class="dia">01</span><span class="dia-nome">Dia 1</span><span class="cat-nome">Categoria 1</span></div>
+      <div data-dia="2" class="item cat1"><span class="dia">02</span><span class="dia-nome">Dia 2</span><span class="cat-nome">Categoria 1</span></div>
+      <div data-dia="1" class="item cat1"><span class="dia">03</span><span class="dia-nome">Dia 1</span><span class="cat-nome">Categoria 1</span></div>
+      <div data-dia="2" class="item cat2"><span class="dia">04</span><span class="dia-nome">Dia 2</span><span class="cat-nome">Categoria 2</span></div>
+      <div data-dia="1" class="item cat2"><span class="dia">05</span><span class="dia-nome">Dia 1</span><span class="cat-nome">Categoria 2</span></div>
+      <div data-dia="2" class="item cat2"><span class="dia">06</span><span class="dia-nome">Dia 2</span><span class="cat-nome">Categoria 2</span></div>
+      <div data-dia="1" class="item cat3"><span class="dia">07</span><span class="dia-nome">Dia 1</span><span class="cat-nome">Categoria 3</span></div>
+      <div data-dia="2" class="item cat3"><span class="dia">08</span><span class="dia-nome">Dia 2</span><span class="cat-nome">Categoria 3</span></div>
+      <div data-dia="1" class="item cat3"><span class="dia">09</span><span class="dia-nome">Dia 1</span><span class="cat-nome">Categoria 3</span></div>
+      <div data-dia="2" class="item cat1"><span class="dia">10</span><span class="dia-nome">Dia 2</span><span class="cat-nome">Categoria 1</span></div>
     </div>
 
   </div>
