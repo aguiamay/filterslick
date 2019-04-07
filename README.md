@@ -1,2 +1,2 @@
 Sample:
-https://jsfiddle.net/3uf9qvmj/4/
+https://jsfiddle.net/3uf9qvmj
